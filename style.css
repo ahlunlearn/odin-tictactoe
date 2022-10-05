@@ -1,0 +1,13 @@
+.gameBoard{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.item{
+    font-size: 100px;
+}
